@@ -1,0 +1,107 @@
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--clr-nav-top);
+    color: var(--clr-white);
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 5rem;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    color: var(--clr-white);
+}
+
+.nav__left,
+.nav__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.search__bar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-white);
+    border-radius: 2px;
+    margin: auto 1.5rem;
+    /* gap: 2rem; */
+}
+
+.search__bar select {
+    width: 4rem;
+    background-color: gainsboro;
+    font-family: inherit;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.search__box {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__box input {
+    padding-left: 1rem;
+    flex: 1;
+}
+
+.search__icon {
+    background-color: var(--clr-yellow);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.search__bar input {
+    font-family: inherit;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav__logo {
+    width: 7rem;
+}
+
+.account__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currency__country span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart {
+    position: relative;
+
+}
+
+.cart-counter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+}

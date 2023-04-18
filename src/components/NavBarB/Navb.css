@@ -1,0 +1,27 @@
+#nav2 {
+    padding: 0.8rem 0;
+    background-color: var(--clr-nav-bottom);
+    color: var(--clr-white);
+}
+
+.nav2__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2__left,
+.nav2__left-1,
+.nav2__left-2 {
+    display: flex;
+    align-items: center;
+}
+
+.nav2__left {
+    gap: 1rem;
+}
+
+.nav2__left-1,
+.nav2__left-2 {
+    gap: 2rem;
+}

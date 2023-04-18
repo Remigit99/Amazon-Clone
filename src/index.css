@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /*======= Colors ===========*/
+    --clr-white: #fff;
+    --clr-text-light: rgba(255, 255, 255, 0.75);
+    --clr-black: #000;
+    --clr-text-1: #0F1111;
+    --clr-text-2: #2c6bb9;
+    --clr-nav-top: #131921;
+    --clr-nav-bottom: #232F3E;
+    --clr-yellow: #EFA746;
+
+    /*======= Devices Width ===========*/
+    --width-lg: 90%;
+    --width-md: 94%;
+    --width-sm: 96%;
+
+
+}
+
+
+body {
+    font-family: 'Mulish', 'Nunito';
+    max-width: 1500px;
+    overflow-x: hidden;
+    background-color: rgb(232, 232, 232);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    width: var(--width-lg);
+    margin: 0 auto;
+}
+
+.text-muted {
+    color: var(--clr-text-light);
+}
